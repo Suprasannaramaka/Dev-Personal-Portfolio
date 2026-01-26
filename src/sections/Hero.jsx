@@ -106,10 +106,10 @@ export const Hero = () => {
                 </div>
             </div>
             {/* Skills Section */}
-            <div className="mt-20 animate-fade-in animate-delay-600 flex-row">
-              <p className="text-sm text-muted-foreground mb-6 text-center">Technologies that I work with</p>
+            <div className="mt-20 animate-fade-in animate-delay-600 ">
+              <p className="text-lg text-muted-foreground mb-6 text-center">Technologies that I work with</p>
               <div className="relative overflow-hidden">
-                <div className="flex-animate-marquee flex-row">
+                <div className="flex-animate-marquee">
                   {[...skills , ...skills].map((skills , idk) =>
                   (
                     <div key={idk} className="flex shrink-0 px-8 py-4">
