@@ -79,7 +79,7 @@ export const Hero = () => {
                     </AnimatedBorderButton>
                     </div>
                     {/*Social Links*/}
-                    <div className="flex items-center gap-4 animate-fade-in animation-delay">
+                    <div className="flex items-start gap-4 animate-fade-in animation-delay">
                       <span className="text-sm text-muted-foreground">Follow:</span>
                       {[
                         {icon: Github , href:"#"},
