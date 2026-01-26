@@ -33,9 +33,9 @@ export const About = () =>
 {/* Left Section */}
             <div className="space-y-8">
                 <div className="animate-fade-in">
-                <span className="text-secondary-foreground  text-sm font-medium tracking-wider uppercase">About Me</span>
+                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">Bulinding  the future, 
+            <h2 className="text-4xl md:text-5xl font-bold gap-20 leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">Bulinding  the future, 
         <span className="font-serif italic font-normal text-white">one component at a time.</span>
        </h2>
        <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">

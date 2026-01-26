@@ -4,21 +4,7 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Button } from "../components/Button";
 
 const skills =
-[
-  "Html",
- "CSS",
-  "JavaScript",
-   "React.js",
-  "Tailwind CSS",
-   "Next.js",
-   "Node.js",
-  "Mongo DB",
-  "SQL",
-  "Express.js",
-  "Figma",
-  "Github Actions",
-  "Git"
-]
+["Html","CSS","JavaScript", "React.js","Tailwind CSS","Next.js","Node.js","Mongo DB","SQL","Express.js","Figma","Github Actions","Git"]
 export const Hero = () => {
   const dots = useMemo(() => {
     return [...Array(30)].map((_, i) => ({
@@ -120,10 +106,10 @@ export const Hero = () => {
                 </div>
             </div>
             {/* Skills Section */}
-            <div className="mt-20 animate-fade-in animate-delay-600">
+            <div className="mt-20 animate-fade-in animate-delay-600 flex-row">
               <p className="text-sm text-muted-foreground mb-6 text-center">Technologies that I work with</p>
               <div className="relative overflow-hidden">
-                <div className="flex-animate-marquee">
+                <div className="flex-animate-marquee flex-row">
                   {[...skills , ...skills].map((skills , idk) =>
                   (
                     <div key={idk} className="flex shrink-0 px-8 py-4">
