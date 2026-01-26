@@ -4,7 +4,7 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Button } from "../components/Button";
 
 const skills =
-["Html","CSS","JavaScript", "React.js","Tailwind CSS","Next.js","Node.js","Mongo DB","SQL","Express.js","Figma","Github Actions","Git"]
+["Html","CSS","JavaScript", "React.js","Tailwind CSS","Next.js","Node.js","Mongo DB","SQL","Express.js","Figma","Github Actions","Git"];
 export const Hero = () => {
   const dots = useMemo(() => {
     return [...Array(30)].map((_, i) => ({
