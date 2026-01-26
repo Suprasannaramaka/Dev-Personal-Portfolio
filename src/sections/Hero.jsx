@@ -113,7 +113,7 @@ export const Hero = () => {
                   {[...skills , ...skills].map((skills , idk) =>
                   (
                     <div key={idk} className="flex shrink-0 px-8 py-4">
-                      <span className="text-xl flex-row font-semibold text-muted-foreground/50  hover:text-muted-foreground/400">
+                      <span className="text-xl flex-row font-semibold text-muted-foreground/50  hover:text-muted-foreground/200">
                         {skills}
                         </span>
                     </div>
