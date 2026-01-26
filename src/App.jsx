@@ -10,7 +10,7 @@ function App() {
     <>
     <div className="min-h-screen overflow-x-hidden">
       <main>
-        <Navbar />
+    <Navbar />
     <Hero />
     <About />
     <Projects />
