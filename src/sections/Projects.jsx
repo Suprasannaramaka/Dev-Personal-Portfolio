@@ -1,3 +1,6 @@
+import { ArrowUpRight , Github } from "lucide-react";
+import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+
 const projects = [
     {
     title: "Projects Dashboard",
@@ -9,15 +12,15 @@ const projects = [
     },
      {
     title: "Dev-Pair",
-    description: "A personal portfolio website which contains all the projects that has been by myself,thatincludes both personal as well as proffesional work of Mine. ",
-    image: "",
+   description: "A web-based 1-on-1 mentorship platform",
+    image: " ",
     tags: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
     github: "#"
     },
      {
     title: "Work-Collab",
-    description: "A personal portfolio website which contains all the projects that has been by myself,thatincludes both personal as well as proffesional work of Mine. ",
+    description: " ",
     image: "",
     tags: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript "],
     link: "#",
@@ -26,7 +29,8 @@ const projects = [
 ];
 export const Projects = () =>
 {
-  return <>
+  return (
+  <>
   <section id="projects" className="py-32 relative overflow-hidden">
     {/*Bg glows*/}
     <div className="absolute top-1/4 right-0 w-96 bg-primary/5 rounded-full blur-3xl "/>
@@ -57,7 +61,7 @@ export const Projects = () =>
         {/*Overlay Links*/} 
         <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground  transition-all">
-            <ArrowUpRight className="w-5 h-5"/></a>
+          <ArrowUpRight className="w-5 h-5"/></a>
           <a href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground  transition-all">
           <Github className="w-5 h-5"/></a>
         </div>
@@ -72,16 +76,20 @@ export const Projects = () =>
            </div>
            <p>{project.description}</p>
            <div>
-            {project.tags.map((tag, tagidx) =>
+            {project.tags.map((tag, tagIdx) =>
             (
-              <span>{tag}</span>
+              <span className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
             ))}
            </div>
           </div>
         </div>
       ))}
      </div>
+ {/*view All CTA*/} 
+ <div>
+  {AnimatedBorderButton}
+ </div>
     </div>
   </section>
   </>
-}
+)}
