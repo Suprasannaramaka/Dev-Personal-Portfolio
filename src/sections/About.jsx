@@ -31,25 +31,22 @@ export const About = () =>
      <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 {/* Left Section */}
-            <div className="space-y-8">
-                <div className="animate-fade-in">
-                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
-            </div>
-            <h2 className="text-2xl md:text-5xl p-30 font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground pl-30">Bulinding the future, 
-        <span className="font-serif italic font-normal text-white">one component at a time.</span>
-       </h2>
+<div className="space-y-8">
+<div className="animate-fade-in">
+<span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
+</div>
+<h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100
+        text-secondary-foreground">Building the future,
+        <span className="font-serif italic font-normal text-white">one component at a time.
+    </span>
+    </h2>
        <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
         <p>
        I'm a passionate  react.js devloper with over 9 months of experience crafting digital products 
        that make difference.My journey started with a curiosity for how things work on the web , and it 
-       has evolved into a deep expertise in mordern frontend technologies.
-        </p>
-        <p>
-         I specalise in React,Next.js and Typescript , building everything from sleek landing pages 
+       has evolved into a deep expertise in mordern frontend technologies.I specalise in React,Next.js and Typescript , building everything from sleek landing pages 
          to complex enterprise applications.My approach combines technical excellence  with keen 
          eye for design and user Experience.
-        </p>
-        <p>
          When I'm not coding , you'll find me exploring new technologies, contributing  to 
          open-source projects,or sharing knowledge with the devloper community.
         </p>
