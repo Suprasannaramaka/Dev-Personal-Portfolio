@@ -55,7 +55,7 @@ export const Hero = () => {
                      <br/>as well as it helps to grow as an devloper.
                     </p>
                  {/* CTAs*/}
-                 <div className="flex flex-wrap gap-10 animate-fade-in animation-delay">
+                 <div className="flex flex-row gap-10 animate-fade-in animation-delay">
                     <Button size="lg">
                     Contact Me <ArrowRight className="w-2 h-3"/>
                     </Button>
@@ -66,7 +66,7 @@ export const Hero = () => {
                     </div>
                     {/*Social Links*/}
                     <div className="flex items-start gap-4 animate-fade-in animation-delay">
-                      <span className="text-sm text-muted-foreground">Follow:</span>
+                      <span className="text-sm text-muted-foreground flex">Follow:</span>
                       {[
                         {icon: Github , href:"#"},
                          {icon: Linkedin , href:"#"},
@@ -79,6 +79,7 @@ export const Hero = () => {
                           {<social.icon className="w-5 h-5"/>}</a>
                       ))}
                     </div>
+                    <br/><br/><br/><br/><br/>
                     {/* Right Column - Profile Image*/}
                     <div className="relative animate-fade-in animation-delay-400">
                      {/* Profile Image */}
