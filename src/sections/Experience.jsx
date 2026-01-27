@@ -27,8 +27,17 @@ export const Experience = () =>
         <span className="text-secondary-foreground font-medium tracking-wider uppercase animate-fade-in">Carrer Journey</span>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100
         text-secondary-foreground">Experience that {""}
-        <span className="font-serif italic font-normal text-white">speaks volume.</span></h2>
+        <span className="font-serif italic font-normal text-white">speaks volume.
+    </span>
+    </h2>
+    <p className="text-muted-foreground animate-fade-in animation-delay-200">
+    A timeline of my professional growth,from curious beginner to a junior devloper and building webpages.
+    </p>
      </div>
+     {/*Timeline*/}
+     <div className="relative ">
+        <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-t-to-b from-primary/70 via-tranparent md:-translate-x-0.5 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
+   </div>
    </div>
     </section>
     );
