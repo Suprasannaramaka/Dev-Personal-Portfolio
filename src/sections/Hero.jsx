@@ -66,7 +66,7 @@ export const Hero = () => {
                     </div>
                     {/*Social Links*/}
                     <div className="flex items-start gap-4 animate-fade-in animation-delay">
-                      <span className="text-sm text-muted-foreground flex">Follow:</span>
+                      <span className="text-sm text-muted-foreground flex gap-3.5">Follow:</span>
                       {[
                         {icon: Github , href:"#"},
                          {icon: Linkedin , href:"#"},
@@ -79,7 +79,6 @@ export const Hero = () => {
                           {<social.icon className="w-5 h-5"/>}</a>
                       ))}
                     </div>
-                    <br/><br/><br/><br/><br/>
                     {/* Right Column - Profile Image*/}
                     <div className="relative animate-fade-in animation-delay-400">
                      {/* Profile Image */}

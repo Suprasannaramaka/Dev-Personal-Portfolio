@@ -22,8 +22,6 @@ const highlights = [
         description: "Staying ahead with latest technologies and best practices.",
     },
 ];
-
-
 export const About = () =>
 {
     return( 
@@ -36,7 +34,7 @@ export const About = () =>
 <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
 </div>
 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100
-        text-secondary-foreground">Building the future,
+        text-secondary-foreground pt-50">Building the future,
         <span className="font-serif italic font-normal text-white">one component at a time.
     </span>
     </h2>
