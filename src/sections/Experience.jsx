@@ -53,7 +53,7 @@ export const Experience = () =>
        <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 ? "md:justify-end" : ""}`}>
        {exp.technologies.map((tech , techIdx) =>
     (
-        <span key={techIdx} className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"></span>
+        <span key={techIdx} className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
     ))}
        </div>
         </div>
