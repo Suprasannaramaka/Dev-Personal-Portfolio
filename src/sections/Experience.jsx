@@ -49,11 +49,13 @@ export const Experience = () =>
         <span className="text-sm text-primary font-medium">{exp.period}</span>
         <h3 className="text-sm text-primary font-medium">{exp.role}</h3>
         <p className="text-muted-foreground">{exp.company}</p>
-         <p className="text-sm text-muted-foreground">{exp.description}</p>
-          <p>{exp.technologies.map((tech, techIdx) =>
-        (
-            <span>{tech}</span>
-        ))}</p>
+         <p className="text-sm text-muted-foreground mt-4">{exp.description}</p>
+       <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 ? "md:justify-end" : ""}`}>
+       {exp.technologies.map((tech , techIdx) =>
+    (
+        <span key={techIdx} className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"></span>
+    ))}
+       </div>
         </div>
          </div>
         </div>
