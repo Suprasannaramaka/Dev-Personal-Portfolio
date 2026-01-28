@@ -37,10 +37,12 @@ export const Experience = () =>
      {/*Timeline*/}
      <div className="relative ">
         <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-t-to-b from-primary/70 via-tranparent md:-translate-x-0.5 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
-        {/*Experience*/} 
-        <div className="space-y-12">
-       {experiences.map((exp , idx) =>(
-        <div key={idx}>
+        {/*Experience Items*/}
+       <div className="space-y-12">
+        { experiences.map((exp, idx) => (
+            <div key={idx}
+            className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
+            style={{animationDelay: `${(idx + 1) * 150}ms`}}>
             {/*Timeline Dot*/} 
          <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1.5"></div>
           {/*Content*/} 
