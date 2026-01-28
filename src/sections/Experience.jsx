@@ -42,7 +42,7 @@ export const Experience = () =>
        {experiences.map((exp , idx) =>(
         <div key={idx}>
             {/*Timeline Dot*/} 
-         <div className="absolute"></div>
+         <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1.5"></div>
           {/*Content*/} 
          <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
         <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
@@ -53,7 +53,7 @@ export const Experience = () =>
        <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 ? "md:justify-end" : ""}`}>
        {exp.technologies.map((tech , techIdx) =>
     ( <span key={techIdx} 
-    className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
+    className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{exp.tech}</span>
     ))}
        </div>
         </div>
