@@ -74,11 +74,11 @@ export const Projects = () =>
             className="w-5 h-5 text-muted-foreground group-hover:text-primary
             group-hover:translate-x-1 group-hover:translate-y-1 transition-all"/>
            </div>
-           <p>{project.description}</p>
-           <div>
+           <p className="text-muted-foreground text-sm">{project.description}</p>
+           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag , tagIdx) =>
             (
-              <span className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
+              <span key={tagIdx} className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
             ))}
            </div>
           </div>
