@@ -31,7 +31,7 @@ export const Experience = () =>
     </span>
     </h2>
     <p className="text-muted-foreground animate-fade-in animation-delay-200">
-    A timeline of my professional growth,from curious beginner to a junior devloper and building webpages.
+    A timeline of my professional growth,from curious beginner to a junior devloper building webpages.
     </p>
      </div>
      {/*Timeline*/}
