@@ -29,7 +29,7 @@ export const Experience = () =>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-50">Experience  that{""} 
         <span className="font-serif italic font-normal text-white">{""}speaks volume</span>
             </h2>
-            <p className="text-muted-foreground animate-fade-in animation-delay-300">
+        <p className="text-muted-foreground animate-fade-in animation-delay-300">
          A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
             </p>
             </div>
@@ -44,7 +44,7 @@ export const Experience = () =>
                 className="relative grid md:gird-cols-2 gap-8 animate-fade-in"
                 style={{animationDelay: `${(idx + 1) * 150}ms`}}>
                    {/*Timeline Dot*/}  
-                   <div></div>
+                   <div className="absolute"></div>
                    {/* Content */}  
                    <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:cols-start-2 md:pl-16"}`}>
                     <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
