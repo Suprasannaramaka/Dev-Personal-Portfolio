@@ -88,7 +88,7 @@ export const Projects = () =>
      </div>
  {/*view All CTA*/} 
  <div>
-  {AnimatedBorderButton}
+  <AnimatedBorderButton/>
  </div>
     </div>
   </section>
