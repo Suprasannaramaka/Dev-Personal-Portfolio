@@ -1,4 +1,4 @@
-const Experiences = [
+const experiences = [
     {
         period: "oct 2024 -Jan 2025",
         role: "web Devloper",
@@ -32,6 +32,35 @@ export const Experience = () =>
             <p className="text-muted-foreground animate-fade-in animation-delay-300">
          A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
             </p>
+        </div>
+        {/* Timeline */}
+        <div className="relative">
+            <div className="timeline-glow absolute left-0 md:left-0.5 top-0 bottom-0 w-[0.5] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
+           {/* Experience Items*/}
+           <div className="space-y-12">
+            {experiences.map((exp , idk) =>
+            {
+                <div key={idk}>
+                   {/*Timeline Dot*/}  
+                   <div></div>
+                   {/* Content */}  
+                   <div>
+                    <div>
+                        <span>{exp.period}</span>
+                        <h3>{exp.role}</h3>
+                        <p>{exp.company}</p>
+                        <p>{exp.description}</p>
+                        <div>
+                       {exp.tech.map((tech,techIdx) =>
+                    (
+                        <span>{tech}</span>
+                    ))}  
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            })}
+           </div>
         </div>
     </div>
     </section>
