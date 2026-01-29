@@ -20,7 +20,7 @@ const experiences = [
 export const Experience = () =>
 {
     return (
-    <section className="">
+    <section>
 
     </section>
     );
