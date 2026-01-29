@@ -39,7 +39,7 @@ export const Experience = () =>
            {/* Experience Items*/}
            <div className="space-y-12">
             {Experiences.map((exp , idx) =>
-              { <div key={idx}
+              ( <div key={idx}
                 className="relative grid md:gird-cols-2 gap-8 animate-fade-in"
                 style={{animationDelay: `${(idx + 1) * 150}ms`}}>
                    {/*Timeline Dot*/}  
@@ -61,7 +61,7 @@ export const Experience = () =>
                     </div>
                    </div>
                 </div>
-            })}
+            ))}
            </div>
            </div>
     </div>
