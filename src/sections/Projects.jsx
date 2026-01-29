@@ -76,7 +76,7 @@ export const Projects = () =>
            </div>
            <p>{project.description}</p>
            <div>
-            {project.tags.map((tag, tagIdx) =>
+            {project.tags.map((tag , tagIdx) =>
             (
               <span className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
             ))}
