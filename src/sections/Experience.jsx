@@ -38,14 +38,15 @@ export const Experience = () =>
         <div className="timeline-glow absolute left-0 md:left-0.5 top-0 bottom-0 w-[0.5] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
            {/* Experience Items*/}
            <div className="space-y-12">
-            {experiences.map((exp , idk) =>
+            {experiences.map((exp , idx) =>
             {
-                <div key={idk}
-                className="relative grid md:gird-cols-2 gap-8 animate-fade-in">
+                <div key={idx}
+                className="relative grid md:gird-cols-2 gap-8 animate-fade-in"
+                style={{animationDelay: `${(idx+1) * 150}ms`}}>
                    {/*Timeline Dot*/}  
                    <div></div>
                    {/* Content */}  
-                   <div>
+                   <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:cols-start-2 md:pl-16"}`}>
                     <div>
                         <span>{exp.period}</span>
                         <h3>{exp.role}</h3>
