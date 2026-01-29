@@ -90,7 +90,9 @@ export const Projects = () =>
      </div>
  {/*view All CTA*/} 
  <div>
-  <AnimatedBorderButton/>
+  <AnimatedBorderButton>
+     View All Projects
+    </AnimatedBorderButton>
  </div>
     </div>
   </section>
