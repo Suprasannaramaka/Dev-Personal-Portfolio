@@ -1,4 +1,4 @@
-const experiences = [
+const Experiences = [
     {
         period: "oct 2024 -Jan 2025",
         role: "web Devloper",
