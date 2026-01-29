@@ -32,15 +32,16 @@ export const Experience = () =>
             <p className="text-muted-foreground animate-fade-in animation-delay-300">
          A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
             </p>
-        </div>
+            </div>
         {/* Timeline */}
         <div className="relative">
-            <div className="timeline-glow absolute left-0 md:left-0.5 top-0 bottom-0 w-[0.5] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
+        <div className="timeline-glow absolute left-0 md:left-0.5 top-0 bottom-0 w-[0.5] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
            {/* Experience Items*/}
            <div className="space-y-12">
             {experiences.map((exp , idk) =>
             {
-                <div key={idk}>
+                <div key={idk}
+                className="relative grid md:gird-cols-2 gap-8 animate-fade-in">
                    {/*Timeline Dot*/}  
                    <div></div>
                    {/* Content */}  
@@ -51,7 +52,7 @@ export const Experience = () =>
                         <p>{exp.company}</p>
                         <p>{exp.description}</p>
                         <div>
-                       {exp.tech.map((tech,techIdx) =>
+                       {exp.tech.map((tech , techIdx) =>
                     (
                         <span>{tech}</span>
                     ))}  
@@ -61,7 +62,7 @@ export const Experience = () =>
                 </div>
             })}
            </div>
-        </div>
+           </div>
     </div>
     </section>
     );
