@@ -6,7 +6,7 @@ const projects = [
     title: "Projects Dashboard",
     description: "A personal portfolio website which contains all the projects that has been by myself,thatincludes both personal as well as proffesional work of Mine. ",
     image: "/projectdashboard.jpg",
-    tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
+    tags: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
     github: "#",
     },
@@ -14,7 +14,7 @@ const projects = [
     title: "Dev-Pair",
    description: "A web-based 1-on-1 mentorship platform",
     image: "/student-mentor.jpg",
-    tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
+    tags: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
     github: "#",
     },
@@ -22,7 +22,7 @@ const projects = [
     title: "Work-Collab",
     description: "A collaboration website for everyone to connect with each-other and work as a team",
     image: "/freelance.jpg",
-    tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
+    tags: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
     github: "#",
     },
@@ -48,7 +48,7 @@ export const Projects = () =>
         </p>
       </div>
      {/*Project grid*/}
-     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
       {projects.map((project , idx) =>
       (
         <div key={idx} 
@@ -76,9 +76,10 @@ export const Projects = () =>
            </div>
            <p className="text-muted-foreground text-sm">{project.description}</p>
            <div className="flex flex-wrap gap-2">
-            {project.tech.map((tag , tagIdx) =>
+            {project.tags.map((tag , tagIdx) =>
             (
-              <span key={tagIdx} className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
+              <span key={tagIdx} 
+              className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
             ))}
            </div>
           </div>
