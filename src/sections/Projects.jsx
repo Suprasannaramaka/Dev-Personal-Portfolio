@@ -76,7 +76,7 @@ export const Projects = () =>
            </div>
            <p className="text-muted-foreground text-sm">{project.description}</p>
            <div className="flex flex-wrap gap-2">
-            {projects.tech.map((tag , tagIdx) =>
+            {project.tech.map((tag , tagIdx) =>
             (
               <span key={tagIdx} className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50  hover:text-primary transition-all duration-300">{tag}</span>
             ))}
