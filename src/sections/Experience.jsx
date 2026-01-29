@@ -25,7 +25,7 @@ export const Experience = () =>
     <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
-            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">Carrer Journey</span>
+       <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">Carrer Journey</span>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100
         text-secondary-foreground pt-50">Experience  that{""} 
         <span className="font-serif italic font-normal text-white">{""}speaks volume</span>
