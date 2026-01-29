@@ -1,3 +1,4 @@
+import { Map } from "lucide-react";
 const   experiences = [
     {
         period:"Oct 2024 -Jan 2025",
@@ -53,10 +54,10 @@ export const Experience = () =>
         <p className="text-muted-foreground">{exp.company}</p>
          <p className="text-sm text-muted-foreground mt-4">{exp.description}</p>
        <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 ? "md:justify-end" : ""}`}>
-       {exp.technologies.map((tech , techIdx) =>
-    ( <span key={techIdx} 
+       {experiences.tech.map((tech , techIdx) =>
+    <span key={techIdx} 
     className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
-    ))}
+    )}
        </div>
         </div>
          </div>
