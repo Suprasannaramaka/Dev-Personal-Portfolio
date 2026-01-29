@@ -47,14 +47,15 @@ export const Experience = () =>
                    {/* Content */}  
                    <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:cols-start-2 md:pl-16"}`}>
                     <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
-                        <span>{exp.period}</span>
-                        <h3>{exp.role}</h3>
-                        <p>{exp.company}</p>
-                        <p>{exp.description}</p>
-                        <div>
+                        <span className="text-sm text-primary font-medium">{exp.period}</span>
+                        <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
+                        <p className="text-muted-foreground">{exp.company}</p>
+                        <p className="text-muted-foreground text-sm mt-4">{exp.description}</p>
+                        <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}`}>
                        {exp.tech.map((tech , techIdx) =>
                     (
-                        <span>{tech}</span>
+                        <span key={techIdx}
+                        className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
                     ))}  
                         </div>
                     </div>
