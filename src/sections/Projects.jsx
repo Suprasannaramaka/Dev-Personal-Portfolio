@@ -1,6 +1,5 @@
 import { ArrowUpRight , Github } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
-import { Map } from "lucide-react";
 
 const projects = [
     {
@@ -9,7 +8,7 @@ const projects = [
     image: "/projectdashboard.jpg",
     tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
-    github: "#"
+    github: "#",
     },
      {
     title: "Dev-Pair",
@@ -17,7 +16,7 @@ const projects = [
     image: "/student-mentor.jpg",
     tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
-    github: "#"
+    github: "#",
     },
      {
     title: "Work-Collab",
@@ -25,7 +24,7 @@ const projects = [
     image: "/freelance.jpg",
     tech: ["React, Tailwindcss,TypeScript,NodeJs,HTML,CSS,Javscript"],
     link: "#",
-    github: "#"
+    github: "#",
     },
 ];
 export const Projects = () =>
@@ -49,7 +48,7 @@ export const Projects = () =>
         </p>
       </div>
      {/*Project grid*/}
-     <div>
+     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project , idx) =>
       (
         <div key={idx} 
