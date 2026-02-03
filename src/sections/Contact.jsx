@@ -51,15 +51,15 @@ export const Contact = () =>
            <form  action=""  className="space-y-6"/>
            <div>
             <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-            <input type="text" />
+            <input id="name" type="text" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary"/>
            </div>
            <div>
             <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-            <input type="text" />
+            <input id="email"  type="text" />
            </div>
            <div>
             <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-            <input type="text" />
+            <input id="message"  type="text" />
            </div>
         </div>
     </div>
