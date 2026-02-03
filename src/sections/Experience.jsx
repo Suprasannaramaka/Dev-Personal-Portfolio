@@ -1,7 +1,7 @@
 const Experiences = [
     {
-        period: "oct 2024 -Jan 2025",
-        role: "web Devloper",
+        period: "oct 2024 - Jan 2025",
+        role: "Web Devloper",
         company: "Team-Up",
         description: "As part of the team worked on various projects which helped to upgrade my skills",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js"],
@@ -9,7 +9,7 @@ const Experiences = [
     },
      {
         period: "July 2025 - Jan 2026",
-        role: "web devloper",
+        role: "Web Devloper",
         company: "Labmentrix",
         description: "Worked on projects which helped to upskill myself as a devloper and had an oppurtunity to work on amazing projects.",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
@@ -40,10 +40,10 @@ return (
            <div className="space-y-12">
             {Experiences.map((exp , idx) =>
               ( <div key={idx}
-                className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
+                className="relative grid-cols-2 md:grid-cols-2 gap-5  animate-fade-in"
                 style={{animationDelay: `${(idx + 1) * 150}ms`}}>
                    {/*Timeline Dot*/}  
-                   <div className="absolute left-0 md:left-0.5 top-0 w-3 h-3 bg-primary  rounded-full -translate-x-1/2 ring-4 ring-background z-10">
+                   <div className="absolute md:left-0.5 top-0 w-3 h-3 bg-primary  rounded-full -translate-x-1/2 ring-4 ring-background z-10">
                    {exp.current && ( 
                     <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75"></span>
                    )}

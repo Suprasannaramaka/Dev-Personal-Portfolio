@@ -45,6 +45,24 @@ export const Contact = () =>
         Have a project in mind ? or just want to say hi? My inbox is alway open.I will try my best to get back to you.Send me a message and let's connect!!
         </p>
     </div>
+    {/* Contact Info Items */}
+    <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animate-delay-300">
+           <form  action=""  className="space-y-6"/>
+           <div>
+            <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
+            <input type="text" />
+           </div>
+           <div>
+            <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
+            <input type="text" />
+           </div>
+           <div>
+            <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
+            <input type="text" />
+           </div>
+        </div>
+    </div>
     </div>
     </section>
 );
