@@ -109,7 +109,7 @@ export const Hero = () => {
             <div className="relative mt-20 animate-fade-in animate-delay-600">
               <p className="text-lg text-muted-foreground mb-6 text-center">Technologies that I work with</p>
               <div className="relative overflow-hidden">
-                <div className="flex-animate-marquee">
+                <div className="flex-animate-marquee flex-row gap-5">
                   {[...skills , ...skills].map((skills , idk) =>
                   (
                     <div key={idk} className="flex  shrink-0 px-8 py-4">
