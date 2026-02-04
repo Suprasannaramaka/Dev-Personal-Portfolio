@@ -1,4 +1,6 @@
-import { Mail , Phone , MapPin } from "lucide-react";
+import { Mail , Phone , MapPin , Send } from "lucide-react";
+import {useState} from "react";
+import { Button } from "@/componets/Button";
 const contactInfo = [
     {
       icon:  Mail,
@@ -23,6 +25,15 @@ const contactInfo = [
 
 export const Contact = () =>
 {
+    const[formData , setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    })
+    const handleSubmit = async(e) =>
+    {
+        e.preventDefault();
+    }
     return (
     <section id="contact" className="py-32 relative overflow-hidden">
   <div className="absolute top-0 left-0  w-full h-full">
@@ -48,19 +59,35 @@ export const Contact = () =>
     {/* Contact Info Items */}
     <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
         <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animate-delay-300">
-           <form  action=""  className="space-y-6"/>
+           <form className="space-y-6" onSubmit={handleSubmit}/>
            <div>
-            <label htmlFor="name"  required placeholder="Your Name..."  className="block text-sm font-medium mb-2">Name</label>
-            <input id="name" type="text" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary"/>
+            <label htmlFor="name"  className="block text-sm font-medium mb-2">Name</label>
+            <input id="name" 
+            type="text" 
+            required 
+            placeholder="Your Name..."  
+            value={formData.name} onChange = {(e) => setFormData({...formData , name:e.target.value})}
+            className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary"/>
            </div>
            <div>
-            <label htmlFor="email" required placeholder="Your Email..."  className="block text-sm font-medium mb-2">Email</label>
-            <input id="email"  type="email"  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
+            <label htmlFor="email"   className="block text-sm font-medium mb-2">Email</label>
+            <input id="email"
+             required
+            value={formData.email} 
+            onChange = {(e) => setFormData({...formData , email:e.target.value})}
+            placeholder="name@email.com..."  type="email"  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
            </div>
            <div>
-            <label htmlFor="message" required placeholder="Your Message..." className="block text-sm font-medium mb-2">Message</label>
-            <textarea  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
+            <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
+            <textarea
+            rows={5}
+             required 
+            value={formData.message} 
+            onChange={(e) => setFormData({...formData , message:e.target.value})}
+             placeholder="Your Message..." 
+             className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
            </div>
+          <Button className="w-full" type="submit" size="lg">Send Message <Send/></Button>
         </div>
     </div>
     </div>
