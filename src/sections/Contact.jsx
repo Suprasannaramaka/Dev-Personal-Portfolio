@@ -50,16 +50,16 @@ export const Contact = () =>
         <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animate-delay-300">
            <form  action=""  className="space-y-6"/>
            <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
+            <label htmlFor="name"  required placeholder="Your Name..."  className="block text-sm font-medium mb-2">Name</label>
             <input id="name" type="text" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary"/>
            </div>
            <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
+            <label htmlFor="email" required placeholder="Your Email..."  className="block text-sm font-medium mb-2">Email</label>
             <input id="email"  type="email"  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
            </div>
            <div>
-            <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-            <text  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
+            <label htmlFor="message" required placeholder="Your Message..." className="block text-sm font-medium mb-2">Message</label>
+            <textarea  className="w-full px-4 py-3 bg-surface rounded-xl border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
            </div>
         </div>
     </div>
