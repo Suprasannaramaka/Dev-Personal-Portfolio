@@ -1,15 +1,23 @@
 const Experiences = [
+     {
+        period: "July 2024 - Sep 2024",
+        role: "Frontend Devloper",
+        company: "Unifed Mentor",
+        description: "Had the oppurtunity to learn new tech stacks and upskill myself as a devloper",
+        tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
+        current:false,
+    },
     {
-        period: "oct 2024 - Jan 2025",
-        role: "Web Devloper",
+        period: "Oct 2024 - Jan 2025",
+        role: "Frontend  Devloper",
         company: "Team-Up",
-        description: "As part of the team worked on various projects which helped to upgrade my skills",
+        description: "As part of the team worked on building scalable web applivations which helped me to grow as a devloper.",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js"],
         current:false,
     },
      {
         period: "July 2025 - Jan 2026",
-        role: "Web Devloper",
+        role: "Frontend  Devloper",
         company: "Labmentrix",
         description: "Worked on projects which helped to upskill myself as a devloper and had an oppurtunity to work on amazing projects.",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
@@ -26,7 +34,7 @@ return (
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
        <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
-        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-50">Experience  that{""} 
+        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">Experience  that{""} 
         <span className="font-serif italic font-normal text-white">{""}speaks volume</span>
             </h2>
         <p className="text-muted-foreground animate-fade-in animation-delay-300">
@@ -37,10 +45,10 @@ return (
         <div className="relative">
         <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[0.5px] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
            {/* Experience Items*/}
-           <div className="space-y-12">
+           <div className="space-y-10 md:space-y-10  md:flex-col">
             {Experiences.map((exp , idx) =>
               ( <div key={idx}
-                className="relative grid-cols-2 md:grid-cols-2 gap-5  animate-fade-in"
+                className="relative grid-cols-3 md:grid-cols-3  gap-5  animate-fade-in"
                 style={{animationDelay: `${(idx + 1) * 150}ms`}}>
                    {/*Timeline Dot*/}  
                    <div className="absolute md:left-0.5 top-0 w-3 h-3 bg-primary  rounded-full -translate-x-1/2 ring-4 ring-background z-10">

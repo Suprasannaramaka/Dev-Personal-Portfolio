@@ -38,7 +38,7 @@ export const About = () =>
         <span className="font-serif italic font-normal text-white">one component at a time.
     </span>
     </h2>
-       <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+       <div className="space-y-4 pb-5 text-muted-foreground animate-fade-in animation-delay-200">
         <p>
        I'm a passionate  react.js devloper with over 9 months of experience crafting digital products 
        that make difference.My journey started with a curiosity for how things work on the web , and it 
@@ -49,7 +49,7 @@ export const About = () =>
          open-source projects,or sharing knowledge with the devloper community.
         </p>
        </div>
-       <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
+       <div className="glass rounded-2xl p-5  glow-border animate-fade-in animation-delay-300">
         <p className="text-lg font-medium italic text-foreground">
             "My mission is to create digital experiences that are not just functional, 
             but truly delightful - products that users love to use and devlopers love to maintain."
