@@ -115,7 +115,6 @@ export const Hero = () => {
                       <span className="text-xl  flex flex-row font-semibold text-muted-foreground/50  hover:text-muted">
                         {skill}
                         </span>
-                          <br/><br/><br/>
                     </div> 
                   ))}
                 </div>
