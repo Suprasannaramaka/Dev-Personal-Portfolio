@@ -37,7 +37,7 @@ export const Projects = () =>
     <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"/>
   <div className="container mx-auto px-6 relative z-10">
       {/* Section Headers*/}
-      <div className="text-center mx-auto max-w-3xl mb-16 row-span-5">
+      <div className="text-center mx-auto max-w-3xl mb-10">
         <span className="text-secondary-foreground text-sm font-medium mt-5 tracking-wider uppercase animate-fade-in">Featured Work</span>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">projects that 
           <span className="font-serif italic font-normal text-white"> {""} make an impact.</span>
