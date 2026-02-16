@@ -38,10 +38,11 @@ export const Projects = () =>
   <div className="container mx-auto px-6 relative z-10">
       {/* Section Headers*/}
       <div className="text-center mx-auto max-w-3xl mb-16">
-        <span className="text-secondary-foreground text-sm gap-6 font-medium tracking  wider uppercase animate-fade-in">Featured Work</span>
+        <span className="text-secondary-foreground text-sm gap-6 font-medium tracking  wider uppercase animate-fade-in">Featured Work
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">projects that 
           <span className="font-serif italic font-normal text-white"> {""} make an impact.</span>
         </h2>
+        </span>
         <p className="text-muted-foreground animate-fade-in animation-delay-200 ">
           A selection of my recent work,from complex web applications to innovate tools that solve 
           real-world problems.
