@@ -42,11 +42,11 @@ export const Projects = () =>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">projects that 
           <span className="font-serif italic font-normal text-white"> {""} make an impact.</span>
         </h2>
-        </span>
         <p className="text-muted-foreground animate-fade-in animation-delay-200 ">
           A selection of my recent work,from complex web applications to innovate tools that solve 
           real-world problems.
         </p>
+        </span>
       </div>
      {/*Project grid*/}
      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
