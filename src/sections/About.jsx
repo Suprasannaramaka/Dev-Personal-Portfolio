@@ -40,7 +40,7 @@ export const About = () =>
     </h2>
        <div className="space-y-4 pb-5 text-muted-foreground animate-fade-in animation-delay-200">
         <p>
-       I'm a passionate  react.js devloper with over 9 months of experience crafting digital products 
+       I'm a passionate  web  devloper with over 9 months of experience crafting digital products 
        that make difference.My journey started with a curiosity for how things work on the web , and it 
        has evolved into a deep expertise in mordern frontend technologies.I specalise in React,Next.js and Typescript , building everything from sleek landing pages 
          to complex enterprise applications.My approach combines technical excellence  with keen 
