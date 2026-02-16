@@ -32,7 +32,7 @@ return (
     <div className="absolute top-1/2 left-1/4 w-100 h-100 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"/>
     <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-5">
        <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
         <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">Experience  that{""} 
         <span className="font-serif italic font-normal text-white">{""}speaks volume</span>
