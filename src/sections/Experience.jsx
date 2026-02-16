@@ -33,11 +33,11 @@ return (
     <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="max-w-3xl mb-5">
-       <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
-        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">Experience  that{""} 
-        <span className="font-serif italic font-normal text-white">{""}speaks volume</span>
+       <span className="text-secondary-foreground text-sm  text-center font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">Experience  that{""} 
+        <span className="font-serif italic text-center font-normal text-white">{""}speaks volume</span>
             </h2>
-        <p className="text-muted-foreground animate-fade-in animation-delay-300">
+        <p className="text-muted-foreground  text-center animate-fade-in animation-delay-300">
          A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
             </p>
             </div>
