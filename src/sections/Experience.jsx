@@ -1,7 +1,7 @@
 const Experiences = [
      {
         period: "July 2024 - Sep 2024",
-        role: "Frontend Devloper",
+        role: "Web Devloper",
         company: "Unifed Mentor",
         description: "Had the oppurtunity to learn new tech stacks and upskill myself as a devloper",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
@@ -9,7 +9,7 @@ const Experiences = [
     },
     {
         period: "Oct 2024 - Jan 2025",
-        role: "Frontend  Devloper",
+        role: "Web Devloper",
         company: "Team-Up",
         description: "As part of the team worked on building scalable web applivations which helped me to grow as a devloper.",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js"],
@@ -17,7 +17,7 @@ const Experiences = [
     },
      {
         period: "July 2025 - Jan 2026",
-        role: "Frontend  Devloper",
+        role: "Web  Devloper",
         company: "Labmentrix",
         description: "Worked on projects which helped to upskill myself as a devloper and had an oppurtunity to work on amazing projects.",
         tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
