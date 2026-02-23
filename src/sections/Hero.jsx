@@ -1,21 +1,19 @@
-import { useMemo } from "react";
 import { ArrowRight, ChevronDown, Github, Linkedin, Twitter , Download} from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Button } from "../components/Button";
 
 const skills = ["JavaScript", "React.js", "Next.js", "Node.js", "Mongo DB", "SQL", "Express.js"];
-export const Hero = () => {
-  const dots = useMemo(() => {
-    return [...Array(30)].map((_, i) => ({
-      id : {i} , 
+ const DOTS = [...Array(30)].map((_ , i) => ({
+      id : i,
       left: `${Math.random() * 100}%`,
       top: `${Math.random() * 100}%`,
       duration: 15 + Math.random() * 20,
       delay: Math.random() * 5,
     }));
-  }, []);
-
+export default function Hero() {
+  const dots = DOTS;
   return (
+    <div>
     <section className="relative min-h-screen">
       <div className="absolute inset-0 pointer-events-none">
         {dots.map(dot => (
@@ -129,4 +127,6 @@ export const Hero = () => {
           </a>
         </div>
   </section>
- )}
+  </div>
+  );
+}
