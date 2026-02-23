@@ -1,7 +1,7 @@
 import { Mail , Phone , MapPin , Send } from "lucide-react";
 import {useState} from "react";
 import { Button } from "../components/Button";
-const contactInfo = [
+const _contactInfo = [
     {
       icon:  Mail,
       label: "Email",
