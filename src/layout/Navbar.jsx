@@ -26,12 +26,12 @@ export const Navbar = () =>
       <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
         Ramaka<span className="text-primary">.</span>
       </a>
-      <div className="flex items-center gap-10">
+      <div className="flex items-center">
         <div className="glass rounded-full px-2 py-1 items-center gap-10 hidden:md:flex">
             {navLinks.map((link , index)=>
             (
             <a href={link.href} key={index} 
-            classNmae="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+            classNmae="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface gap-10">
                 {link.label}
             </a>
             ))}
