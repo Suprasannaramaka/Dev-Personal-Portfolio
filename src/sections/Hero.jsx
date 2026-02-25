@@ -10,7 +10,7 @@ const skills = ["JavaScript", "React.js", "Next.js", "Node.js", "Mongo DB", "SQL
       duration: 15 + Math.random() * 20,
       delay: Math.random() * 5,
     }));
-export default function Hero() {
+export const  Hero = () => {
   const dots = DOTS;
   return (
     <div>
