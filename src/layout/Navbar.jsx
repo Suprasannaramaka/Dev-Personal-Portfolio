@@ -27,7 +27,7 @@ export const Navbar = () =>
         Ramaka<span className="text-primary">.</span>
       </a>
       <div className="flex items-center gap-10">
-        <div className="glass rounded-full px-2 py-1 items-center gap-1">
+        <div className="glass rounded-full px-2 py-1 items-center gap-10 hidden:md:flex">
             {navLinks.map((link , index)=>
             (
             <a href={link.href} key={index} 
