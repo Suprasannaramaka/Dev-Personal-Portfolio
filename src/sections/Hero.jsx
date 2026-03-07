@@ -2,7 +2,7 @@ import { ArrowRight, ChevronDown, Github, Linkedin, Twitter , Download} from "lu
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Button } from "../components/Button";
 
-const skills = ["JavaScript", "React.js", "Next.js", "Node.js", "Mongo DB", "SQL", "Express.js"];
+const skills = ["JavaScript", "React.js", "Next.js", "AWS(S3/Amplify)" , "Jest & RTL" ,"Github Actions"  ,"Node.js", "Mongo DB", "Express.js"];
  const DOTS = [...Array(30)].map((_ , i) => ({
       id : i,
       left: `${Math.random() * 100}%`,
