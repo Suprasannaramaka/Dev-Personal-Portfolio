@@ -37,7 +37,7 @@ export const  Hero = () => {
                  <div className="animate-fade-in">
                     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                     <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>
-                   Software Devloper
+                   Software Engineer | Frontend Specialist 
                     </span>
                  </div>
                  {/*Headline*/}
@@ -46,10 +46,10 @@ export const  Hero = () => {
                     <span className="font-serif italic font-normal text-white">precision</span>
                     </h1>
                     <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                     Hi , I'm Ramaka.Suprasanna - A Software devloper specializing in Javascript,
+                     Hi , I'm Ramaka.Suprasanna - A Software devloper specializing in frontend specalist skilled in  Javascript,
                      React,Redux,RestAPI,Next.js ,Node.js and Typescript.
                      I build scalble ,performant web applicatios that users love.<br/>Along with that I have Strong problem sloving as well as debugging skills which makes building websites a fun learning experience 
-                     <br/>as well as it helps to grow as an devloper.
+                     <br/>as well as it helps to grow as an devloper.Combining a strong mathematical foundation (9.8 CGPA) with modern full-stack expertise to build scalable web solutions.
                     </p>
                  {/* CTAs*/}
                  <div className="flex flex-row gap-10 animate-fade-in animation-delay">
