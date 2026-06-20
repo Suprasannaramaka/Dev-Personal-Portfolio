@@ -18,8 +18,8 @@ const projects = [
     },
      {
     title: "AI_Fitness_Tracker",
-    description: "I-Fitness App project helps users set fitness goals, track calories, log workouts, and even analyze food images using Google Gemini AI to calculate calorie intake automatically",
-    image: "/Fitnesss.jpg",
+    description: "AI-Fitness App project helps users set fitness goals, track calories, log workouts, and even analyze food images using Google Gemini AI to calculate calorie intake automatically",
+    image: "/Fitness.jpg",
     tags: ["React", "Tailwindcss","TypeScript","NodeJs","HTML","CSS","Javscript" ,"Next.js" ,"MongoDB" , "Exprees"],
     github: "https://github.com/Suprasannaramaka/Fitness_Tracker",
     },
