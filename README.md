@@ -1,16 +1,50 @@
-# React + Vite
+# Hi there, I'm Ramaka.Suprasanna 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional Web Development Engineer specializing in building scalable, high-performance web applications using the **React, Node.js, and Tailwind CSS , Next.js** ecosystem. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Featured Projects
 
-## React Compiler
+#### 💻 [Personal Portfolio](https://vercel.com/ramakasuprasannas-projects/dev-personal-portfolio/)
+*A high-performance personal branding site designed for maximum impact.*
+- **The Problem:** Creating a central hub for professional identity and project documentation.
+- **The Solution:** Developed a responsive SPA using **React** and **Vite**, achieving 95+ Lighthouse scores.
+- **Tech Stack:** React.js, Tailwind CSS, Vercel, Node.js.
+- **Key Outcome:** Streamlined professional presentation and improved project visibility.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- #### 🛠️ [Health-Dairy]
+*Helps users to keep track of their health through their*
+- **Core Technology:** [e.g., Node.js / Express / MongoDB]
+- **Key Feature:** Implemented chat-session with mentors which solves the problem of unavalibality of mentors at the required time.
+- **Live Demo:** [-
+- 
+- #### 🛠️ [AI_Fitness_Tracker]
+*An AI-Fitness App project helps users set fitness goals, track calories, log workouts, and even analyze food images using Google Gemini AI to calculate calorie intake automatically*
+- **Core Technology:** [e.g.,React , Node.js / Express / MongoDB]
+- **Key Feature:** [It helps the Users to know the intake of take calories through the food they have taken and no.of calories burnt through the exercise they have done which helps to keep track of their Fitness.
+- **Source:** [https://github.com/Suprasannaramaka/Fitness_Tracker]
 
-## Expanding the ESLint configuration
+#### 🛠️ [Dev-Pair]
+*1-on-1 Mentor–Student Platform*
+- **Core Technology:** [e.g., Node.js / Express / MongoDB]
+- **Key Feature:** Implemented chat-session with mentors which solves the problem of unavalibality of mentors at the required time.
+- **Source:** [https://github.com/Suprasannaramaka/Dev-Pair]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🛠️ Technical Arsenal
+
+| Category | Skills |
+| :--- | :--- |
+| **Frontend** | React, JavaScript (ES6+), Tailwind CSS, Vite, HTML5/CSS3 |
+| **Backend** | Node.js, Express.js, RESTful APIs |
+| **Tools & DevOps** | Git, GitHub, Vercel, Ubuntu, npm/yarn |
+| **Learning Path** | AWS, Jest, React Testing Library (RTL) |
+
+---
+
+### 📊 Academic Excellence
+- **High School Board Examination:** 9.8 CGPA / 10.0
+- Strong foundation in **Mathematics** and analytical problem-solving, which translates into clean, logical code structures.
+
