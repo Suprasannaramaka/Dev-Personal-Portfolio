@@ -24,6 +24,14 @@ const Experiences = [
     tech: ["JavaScript", "React", "Tailwind CSS", "Next.js", "Express.js"],
     current: false,
   },
+  {
+    period: "Jan 2026 - Present",
+    role: "Independent Software Engineer",
+    company: "Self-Directed Architecture & Upskilling",
+    description: "Dedicated an intensive 6-month engineering sprint to mastering advanced frontend performance, strict type governance, and machine learning integration. Architected and deployed complex applications, including a predictive AI fitness tracker, to transition from standard JavaScript patterns into type-safe React 19 ecosystems.",
+    tech: ["TypeScript", "React 19", "Vite", "Tailwind CSS", "Next.js"],
+    current: true,
+},
 ]
 
 ]
