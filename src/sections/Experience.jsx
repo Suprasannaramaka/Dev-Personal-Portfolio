@@ -1,28 +1,30 @@
 const Experiences = [
-     {
-        period: "July 2024 - Sep 2024",
-        role: "Web Devloper",
-        company: "Unifed Mentor",
-        description: "Had the oppurtunity to learn new tech stacks and upskill myself as a devloper",
-        tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
-        current:false,
-    },
-    {
-        period: "Oct 2024 - Jan 2025",
-        role: "Web Devloper",
-        company: "Team-Up",
-        description: "As part of the team worked on building scalable web applivations which helped me to grow as a devloper.",
-        tech:["Javascript" , "React" , "TailwindCSS" , "Next.js"],
-        current:false,
-    },
-     {
-        period: "July 2025 - Jan 2026",
-        role: "Web  Devloper",
-        company: "Labmentrix",
-        description: "Worked on projects which helped to upskill myself as a devloper and had an oppurtunity to work on amazing projects.",
-        tech:["Javascript" , "React" , "TailwindCSS" , "Next.js" , "ExpreessJS"],
-        current:false,
-    },
+    [
+  {
+    period: "July 2024 - Sep 2024",
+    role: "Full-Stack Developer Intern",
+    company: "Unified Mentor",
+    description: "Initiated my professional engineering journey by mastering modern full-stack patterns. Focused on bridging client interfaces with server logic, shifting from simple script scripting into constructing fully decoupled web ecosystems while building a strong baseline in JavaScript rendering performance.",
+    tech: ["JavaScript", "React", "Tailwind CSS", "Next.js", "Express.js"],
+    current: false,
+  },
+  {
+    period: "Oct 2024 - Jan 2025",
+    role: "Frontend-Focused Web Developer Intern",
+    company: "Team-Up",
+    description: "Upskilled into an advanced frontend-heavy engineering role, focusing strictly on user layout execution and scalability. Engineered performance-optimized component trees, implemented fluid responsive break-points, and learned to manage complex atomic design systems that directly enhanced the overall client experience.",
+    tech: ["JavaScript", "React", "Tailwind CSS", "Next.js"],
+    current: false,
+  },
+  {
+    period: "July 2025 - Jan 2026",
+    role: "Full-Stack Developer Intern",
+    company: "Labmentrix",
+    description: "Solidified my evolution into an independent full-stack engineer by owning the end-to-end development lifecycles of complex web modules. Advanced my server-side architecture and asynchronous routing skills in Express, culminating in the deployment of reliable database integrations and highly responsive data flows.",
+    tech: ["JavaScript", "React", "Tailwind CSS", "Next.js", "Express.js"],
+    current: false,
+  },
+]
 
 ]
 export const Experience = () =>
