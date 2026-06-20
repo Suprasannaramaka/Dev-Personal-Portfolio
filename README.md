@@ -13,11 +13,23 @@ Professional Web Development Engineer specializing in building scalable, high-pe
 - **Tech Stack:** React.js, Tailwind CSS, Vercel, Node.js.
 - **Key Outcome:** Streamlined professional presentation and improved project visibility.
 
+- #### 🛠️ [Health-Dairy]
+*Helps users to keep track of their health through their*
+- **Core Technology:** [e.g., Node.js / Express / MongoDB]
+- **Key Feature:** Implemented chat-session with mentors which solves the problem of unavalibality of mentors at the required time.
+- **Live Demo:** [-
+- 
+- #### 🛠️ [AI_Fitness_Tracker]
+*An AI-Fitness App project helps users set fitness goals, track calories, log workouts, and even analyze food images using Google Gemini AI to calculate calorie intake automatically*
+- **Core Technology:** [e.g.,React , Node.js / Express / MongoDB]
+- **Key Feature:** [It helps the Users to know the intake of take calories through the food they have taken and no.of calories burnt through the exercise they have done which helps to keep track of their Fitness.
+- **Source:** [https://github.com/Suprasannaramaka/Fitness_Tracker]
+
 #### 🛠️ [Dev-Pair]
 *1-on-1 Mentor–Student Platform*
 - **Core Technology:** [e.g., Node.js / Express / MongoDB]
-- **Key Feature:** Implemented [feature] which solved [specific problem].
-- **Live Demo:** [Link] | **Source:** [Link]
+- **Key Feature:** Implemented chat-session with mentors which solves the problem of unavalibality of mentors at the required time.
+- **Source:** [https://github.com/Suprasannaramaka/Dev-Pair]
 
 ---
 
