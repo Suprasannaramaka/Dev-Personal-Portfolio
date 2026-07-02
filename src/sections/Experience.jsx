@@ -33,7 +33,9 @@ const Experiences = [
     current: true,
 },
 ]
-
+]
+const Trainings = [
+  
 ]
 export const Experience = () =>
 {
