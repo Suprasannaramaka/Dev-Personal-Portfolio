@@ -2,13 +2,6 @@ import { ArrowUpRight , Github } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
-    {
-    title: "Projects Dashboard",
-    description: "A personal portfolio website which contains all the projects that has been by myself,thatincludes both personal as well as proffesional work of Mine. ",
-    image: "/projectdashboard.jpg",
-    tags: ["React", "Tailwindcss","TypeScript","NodeJs","HTML","CSS","Javscript"],
-    github: "#",
-    },
      {
     title: "Dev-Pair",
    description: "A web-based 1-on-1 mentorship platform",
@@ -23,6 +16,14 @@ const projects = [
     tags: ["React", "Tailwindcss","TypeScript","NodeJs","HTML","CSS","Javscript" ,"Next.js" ,"MongoDB" , "Exprees"],
     github: "https://github.com/Suprasannaramaka/Fitness_Tracker",
     },
+     {
+    title: "Projects Dashboard",
+    description: "A personal portfolio website which contains all the projects that has been by myself,thatincludes both personal as well as proffesional work of Mine. ",
+    image: "/projectdashboard.jpg",
+    tags: ["React", "Tailwindcss","TypeScript","NodeJs","HTML","CSS","Javscript"],
+    github: "https://github.com/Suprasannaramaka/Dashboard-Projects",
+    },
+
 ];
 export const Projects = () =>
 {
