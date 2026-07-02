@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 const navLinks = [
 {href: "#about" , label: "About"},
 {href: "#projects" , label: "Projects"},
-{href: "#testimonials" , label: "Tetimonials"},
 {href:"#experience" , label:"Experiennce"}
 ]
 export const Navbar = () =>
@@ -55,7 +54,7 @@ export const Navbar = () =>
 <a href={link.href} 
 key={index}
 onClick = {() => setIsMobileMenuOpen(false)}
- className="text-lg text-muted-foreground hover:text-foreground py-2">
+ className="text-lg text-muted-foreground hover:text-foreground py-2 px-20">
     {link.label}
 </a>
 ))}
