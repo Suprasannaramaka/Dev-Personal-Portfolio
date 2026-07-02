@@ -45,60 +45,87 @@ const Courses = [
      Company: "Kirabiz Comapany"
   },
 ]
-export const Experience = () =>
-{
-return (
-    <section id="experience" className="py-10 relative overflow-hidden">
-    <div className="absolute top-1/2 left-1/4 w-100 h-100 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"/>
-    <div className="container mx-auto px-6 relative z-10">
-        {/* Section Header */}
-        <div className="max-w-3xl mb-5">
-       <span className="text-secondary-foreground text-sm  text-center font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
-        <h2 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">Experience  that{""} 
-        <span className="font-serif italic text-center font-normal text-white">{""}speaks volume</span>
+export const Experience = () => {
+  return (
+    <>
+      <section id="experience" className="py-10 relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/4 w-100 h-100 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
+        <div className="container mx-auto px-6 relative z-10">
+          {/* Section Header */}
+          <div className="max-w-3xl mb-5">
+            <span className="text-secondary-foreground text-sm text-center font-medium tracking-wider uppercase animation-fade-in">Carrer Journey</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">
+              Experience that <span className="font-serif italic font-normal text-white">speaks volume</span>
             </h2>
-        <p className="text-muted-foreground  text-center animate-fade-in animation-delay-300">
-         A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
+            <p className="text-muted-foreground text-center animate-fade-in animation-delay-300">
+              A timeline of my proffesional growth, from curious begginer to a junior web devloper building web pages.
             </p>
-            </div>
-        {/* Timeline */}
-        <div className="relative">
-        <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[0.5px] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
-           {/* Experience Items*/}
-           <div className="space-y-10 md:space-y-10  md:flex-col">
-            {Experiences.map((exp , idx) =>
-              ( <div key={idx}
-                className="relative grid-cols-3 md:grid-cols-3  gap-5  animate-fade-in"
-                style={{animationDelay: `${(idx + 1) * 150}ms`}}>
-                   {/*Timeline Dot*/}  
-                   <div className="absolute md:left-0.5 top-0 w-3 h-3 bg-primary  rounded-full -translate-x-1/2 ring-4 ring-background z-10">
-                   {exp.current && ( 
-                    <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75"></span>
-                   )}
-                   </div>
-                   {/* Content */}  
-                   <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
-                    <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
-                        <span className="text-sm text-primary font-medium">{exp.period}</span>
-                        <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
-                        <p className="text-muted-foreground">{exp.company}</p>
-                        <p className="text-muted-foreground text-sm mt-4">{exp.description}</p>
-                        <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}`}>
-                       {exp?.tech?.map((tech , techIdx) =>
-                    {
-                           return (
-                             <span key={techIdx}
-                               className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
-                           );
-                         })}  
-                        </div>
+          </div>
+          {/* Timeline */}
+          <div className="relative">
+            <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[0.5px] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]" />
+            {/* Experience Items*/}
+            <div className="space-y-10 md:space-y-10 md:flex-col">
+              {Experiences.map((exp, idx) => (
+                <div
+                  key={idx}
+                  className="relative grid grid-cols-3 md:grid-cols-3 gap-5 animate-fade-in"
+                  style={{ animationDelay: `${(idx + 1) * 150}ms` }}
+                >
+                  {/*Timeline Dot*/}
+                  <div className="absolute md:left-0.5 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
+                    {exp.current && <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75"></span>}
+                  </div>
+                  {/* Content */}
+                  <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
+                    <div className="glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500">
+                      <span className="text-sm text-primary font-medium">{exp.period}</span>
+                      <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
+                      <p className="text-muted-foreground">{exp.company}</p>
+                      <p className="text-muted-foreground text-sm mt-4">{exp.description}</p>
+                      <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}`}>
+                        {exp?.tech?.map((tech, techIdx) => (
+                          <span key={techIdx} className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                   </div>
+                  </div>
                 </div>
-            ))}
-           </div>
-           </div>
-    </div>
-    </section>
-    );
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/4 w-100 h-100 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
+        <div className="container mx-auto px-6 relative z-10">
+          <h3 className="text-2xl font-bold mb-10 text-primary/90 text-center md:text-left md:pl-12">Education & Training</h3>
+          <div className="relative">
+            {/* Separate timeline line for courses section */}
+            <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[0.5px] bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]" />
+            <div className="space-y-10 flex flex-col">
+              {Courses.map((course, idx) => (
+                <div key={idx} className="relative grid grid-cols-1 md:grid-cols-2 gap-5">
+                  {/* Timeline Dot */}
+                  <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10" />
+                  {/* Alternating Content Sides */}
+                  <div className={`pl-8 md:pl-0 w-full ${idx % 2 === 0 ? "md:pr-16 md:text-right md:col-start-1" : "md:col-start-2 md:pl-16"}`}>
+                    <div className="glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500">
+                      <span className="text-sm text-primary font-medium">{course.period}</span>
+                      <h3 className="text-xl font-semibold mt-2">{course.Course}</h3>
+                      <p className="text-muted-foreground">{course.Company}</p>
+                      {course.description && <p className="text-muted-foreground text-sm mt-4">{course.description}</p>}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
