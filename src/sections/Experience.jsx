@@ -86,10 +86,12 @@ return (
                         <p className="text-muted-foreground text-sm mt-4">{exp.description}</p>
                         <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}`}>
                        {exp.tech.map((tech , techIdx) =>
-                    (
-                        <span key={techIdx}
-                        className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
-                    ))}  
+                    {
+                           return (
+                             <span key={techIdx}
+                               className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground">{tech}</span>
+                           );
+                         })}  
                         </div>
                     </div>
                    </div>
