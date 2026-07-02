@@ -106,7 +106,7 @@ export const Experience = () => {
         <div className="container mx-auto px-6 relative z-10">
           <h3 className="text-2xl font-bold mb-10 text-primary/90 text-center md:text-left md:pl-12">Education & Trainings</h3>
           <h2 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground pt-10">
-             "Bridging the gap between academic theory <span className="font-serif italic font-normal text-white">and practical, scalable code."</span>
+             "Building a rigid foundation in modern web architecture <span className="font-serif italic font-normal text-white"> & user experience patterns."</span>
             </h2>
           <div className="relative">
             {/* Separate timeline line for courses section */}
