@@ -34,8 +34,17 @@ const Experiences = [
 },
 ]
 ]
-const Trainings = [
-  
+const Courses = [
+  {
+    period: "Mar 2024 - Jun 2024",
+     Course: "Full-Stack Devlopment",
+     Company: "Edustation",
+  },
+  {
+    period: "sep 2023 - Jan 2024",
+     Course: "Full-Stack Devlopment",
+     Company: "Kirabiz Comapany"
+  },
 ]
 export const Experience = () =>
 {
