@@ -1,5 +1,5 @@
 const Experiences = [
-    [
+
   {
     period: "July 2024 - Sep 2024",
     role: "Full-Stack Developer Intern",
@@ -32,7 +32,6 @@ const Experiences = [
     tech: ["TypeScript", "React 19", "Vite", "Tailwind CSS", "Next.js"],
     current: true,
 },
-]
 ]
 const Courses = [
   {
