@@ -85,7 +85,7 @@ return (
                         <p className="text-muted-foreground">{exp.company}</p>
                         <p className="text-muted-foreground text-sm mt-4">{exp.description}</p>
                         <div className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""}`}>
-                       {exp.tech.map((tech , techIdx) =>
+                       {exp?.tech?.map((tech , techIdx) =>
                     {
                            return (
                              <span key={techIdx}
