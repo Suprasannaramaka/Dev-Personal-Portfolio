@@ -13,7 +13,7 @@ export const AnimatedBorderButton = ({children}) =>
                     preserveAspectRatio = "none"
                     style={{overflow : "visible"}}>
                     <path 
-                    d=""
+                    d="www.google.com/search?q=animated+border+button+svg+path"
                     fill="none"
                     stroke="var(--color-primary)"
                     strokewidth="2"
