@@ -38,11 +38,13 @@ const Courses = [
     period: "Mar 2024 - Jun 2024",
      Course: "Full-Stack Devlopment",
      Company: "Edustation",
+     description: "Structured program focusing heavily on asynchronous JavaScript, building secure REST APIs, and state management fundamentals with Redux."
   },
   {
     period: "sep 2023 - Jan 2024",
      Course: "Full-Stack Devlopment",
-     Company: "Kirabiz Comapany"
+     Company: "Kirabiz Comapany",
+     description: "Completed an intensive engineering track, culminating in a fully deployed multi-user e-commerce platform built with React and Node.js.",
   },
 ]
 export const Experience = () => {
